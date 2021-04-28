@@ -99,9 +99,15 @@ h1{
     font-size: 20px;
 }
 /*inizio main*/
+.row-1{
+    width: 100%;
+}
+.row-2{
+    width: 100%;
+    background-color: whitesmoke;
+}
 .pic{
     width: 70%;
-    
     background-size:cover;
     background-position: center;
     padding: 100px 0;
