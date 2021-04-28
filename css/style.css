@@ -64,6 +64,17 @@ ul{
 .jumbo-btn{
     margin-top: 20px;
 }
+h1{
+    font-size: 45px;
+    color: white;
+    font-family: 'Krona One', sans-serif;
+}
+.text p{
+    color: white;
+    font-size: 16px;
+    margin-top: 40px;
+    font-family: 'Krona One', sans-serif;
+}
 .button1{
     display: inline-block;
     width: 200px;
@@ -87,18 +98,7 @@ ul{
     border-radius: 50px;
     font-size: 20px;
 }
-
-h1{
-    font-size: 45px;
-    color: white;
-    font-family: 'Krona One', sans-serif;
-}
-.text p{
-    color: white;
-    font-size: 16px;
-    margin-top: 40px;
-    font-family: 'Krona One', sans-serif;
-}
+/*inizio main*/
 .pic{
     width: 70%;
     
@@ -123,4 +123,39 @@ h3{
     font-size: 20px;
     margin-top: 15px;
     font-family: 'Krona One', sans-serif;
+}
+/*fine main*/
+section{
+    background-color: whitesmoke;
+    height: 1000px;
+    position: relative;
+}
+.text-bottom{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+p{
+    color:black;
+    font-size: 15px;
+    margin-top: 15px;
+    font-family: 'Krona One', sans-serif;
+}
+.question{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    font-family: 'Krona One', sans-serif;
+}
+.text-bottom .button1{
+    background-color: cornflowerblue;
+    color: white;
+    margin-top: 40px;
 }
