@@ -17,7 +17,7 @@ header{
     clear: both;
 }
 .container{
-    max-width: 1200px;
+    max-width: 1250px;
     margin: 0 auto;
 }
 .topbar{
@@ -43,8 +43,10 @@ ul{
     display: inline-block;
     padding: 15px;
     color: white;
-    font-size: 20px;
+    font-size: 14px;
     text-align: center;
+    font-family: 'Krona One', sans-serif;
+
 }
 .login{
     text-align: center;
@@ -136,6 +138,7 @@ h3{
     font-family: 'Krona One', sans-serif;
 }
 /*fine main*/
+/*bottom banner inizio*/
 section{
     background-color: whitesmoke;
     height: 1000px;
@@ -170,26 +173,44 @@ p{
     color: white;
     margin-top: 40px;
 }
-
+/*fine bottom banner*/
 
 footer{
     background-color: black;
-    height: 650px;
+    height: 750px;
 }
-ul{
+footer ul{
     float: left;
     padding-top: 50px;
     width: 20%;
 }
-li{
+footer li{
     color: white;
     margin-top: 25px;
+    font-family: 'Krona One', sans-serif
 }
-li:first-child{
+footer li:first-child{
     color: cornflowerblue;
     font-size: 20px;
     font-family: 'Krona One', sans-serif;
 }
-hr{
-    color: cornflowerblue;
+footer .container:first-child{
+    border-bottom: cornflowerblue 2px solid;
+    padding-bottom: 30px;
+}
+.button3{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background:cornflowerblue;
+    color:white;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 0;
+    float: right;
+}
+.space{
+    width: 50%;
 }
