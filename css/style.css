@@ -102,6 +102,11 @@ h1{
 .row-1{
     width: 100%;
 }
+.wave{
+    background-image: url(../img/wave.svg);
+    fill: whitesmoke;
+    height: 100px;
+}
 .row-2{
     width: 100%;
     background-color: whitesmoke;
@@ -164,4 +169,27 @@ p{
     background-color: cornflowerblue;
     color: white;
     margin-top: 40px;
+}
+
+
+footer{
+    background-color: black;
+    height: 650px;
+}
+ul{
+    float: left;
+    padding-top: 50px;
+    width: 20%;
+}
+li{
+    color: white;
+    margin-top: 25px;
+}
+li:first-child{
+    color: cornflowerblue;
+    font-size: 20px;
+    font-family: 'Krona One', sans-serif;
+}
+hr{
+    color: cornflowerblue;
 }
